@@ -11,46 +11,56 @@
 		<br><br>
 		
 		<canvas id="pendulum" width="500" height="500"></canvas>
-		<canvas id="graph" width="500" height="500"></canvas>
-		<canvas id="map" width="500" height="500"></canvas>
-		
+
 		<br>
 		
-		<button id="playPauseButton" onclick="play()"><b>PLAY</b></button>
-		<button id="resetButton" onclick="reset()"><b>RESET</b></button>
+		<button id="playPauseButton" onclick="playButtonPressed()">
+			<b>PLAY</b>
+		</button>
+
+		<button id="resetButton" onclick="reset()">
+			<b>RESET</b>
+		</button>
 		
 
 		<p> Angle 1:
-		<input type="number" id="t1" value=1.710254523678></p>
+		<br> <input type="number" id="t1" value=1.710254523678> </p>
 		
 		<p> Angle 2:
-		<input type="number" id="t2" value=0.1></p>
+		<br> <input type="number" id="t2" value=0.1> </p>
 		
 		<p> Angular velocity 1:
-		<input type="number" id="dt1" value=0></p>
+		<br> <input type="number" id="dt1" value=0> </p>
 		
 		<p> Angular velocity 2:
-		<input type="number" id="dt2" value=0></p>
+		<br> <input type="number" id="dt2" value=0> </p>
 		
 		<p> Mass 1:
-		<input type="number" id="m1" value=1></p>
+		<br> <input type="number" id="m1" value=1> </p>
 		
 		<p> Mass 2:
-		<input type="number" id="m2" value=1></p>
+		<br> <input type="number" id="m2" value=1> </p>
 		
 		<p> Length 1:
-		<input type="number" id="r1" value=1></p>
+		<br> <input type="number" id="r1" value=1> </p>
 		
 		<p> Length 2:
-		<input type="number" id="r2" value=1></p>
+		<br> <input type="number" id="r2" value=1> </p>
 		
-		<p> g:
-		<input type="number" id="g" value=9.81></p>
+		<p> g (gravitational acceleration):
+		<br> <input type="number" id="g" value=9.81> </p>
 		
-		<p> h:
-		<input type="number" id="h" value=0.01></p>
+		<p> h (length of time step):
+		<br>
+		Higher -> faster, but less accurate:
+		<br> <input type="number" id="h" value=0.01></p>
 		
-		<canvas id="timeGraph" width="1500" height="300"></canvas>
+		<p> Graph of Angle 1 against Angle 2:
+		<br> <canvas id="graph" width="500" height="500"> </canvas> </p>
+		<p> Poincare Map:
+		<br> <canvas id="map" width="500" height="500"> </canvas> </p>
+		<p> Graph of Angle 2 over time:
+		<br> <canvas id="timeGraph" width="1500" height="300"></canvas> </p>
 		<script src="javascript/main.js"></script>	
 	</body>
 </html>
