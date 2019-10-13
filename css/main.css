@@ -1,43 +1,43 @@
 body
 {
-	
-	background: #222222;
-	color: #AAAAAA;
-	font-family: courier;
-	
+  
+  background: #222222;
+  color: #AAAAAA;
+  font-family: courier;
+  
 }
 
 button
 {
-	
-	font-size: 30px;
-	font-family: courier;
-	color: #CCCCCC;
-	background-color: #222222;
-	border: 5px solid #CCCCCC;
-	
+  
+  font-size: 30px;
+  font-family: courier;
+  color: #CCCCCC;
+  background-color: #222222;
+  border: 5px solid #CCCCCC;
+  
 }
 
 canvas
 {
-	
-	background-color: #333333;
-	border:2px solid #AAAAAA;
-	
+  
+  background-color: #333333;
+  border:2px solid #AAAAAA;
+  
 }
 
 #pendulum
 {
-	
-	background-color: #333333;
-	
+  
+  background-color: #333333;
+  
 }
 
 input
 {
-	
-	background-color: black;
-	color: #AAAAAA;
-	font-size: 20px;
-	
+  
+  background-color: black;
+  color: #AAAAAA;
+  font-size: 20px;
+  
 }
